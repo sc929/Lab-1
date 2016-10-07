@@ -8,7 +8,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 	double x, y, res;
-	cout << "((x^2+27)^1/2)/(y-12)+3=\n";
+	cout << "((x^2+27)^1/2)/(y-12)+3=" << endl;
 	cout << "x = ";
 	cin >> x;
 	cout << "y = ";
