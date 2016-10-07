@@ -9,19 +9,19 @@ int main()
 	setlocale(LC_ALL, "Russian");
 	int A[2], B[2], C[2];
 	double AB, BC, AC, S, p;
-	cout << "Сравнение длин 3 отрезков:\n";
-	cout << "Введите 3 точки:\n";
-	cout << "Точка A:\n";
+	cout << "Сравнение длин 3 отрезков:" << endl;
+	cout << "Введите 3 точки:" << endl;
+	cout << "Точка A:" << endl;
 	cout << "\tX = ";
 	cin >> A[0];
 	cout << "\tY = ";
 	cin >> A[1];
-	cout << "Точка B:\n";
+	cout << "Точка B:" << endl;
 	cout << "\tX = ";
 	cin >> B[0];
 	cout << "\tY = ";
 	cin >> B[1];
-	cout << "Точка C:\n";
+	cout << "Точка C:" << endl;
 	cout << "\tX = ";
 	cin >> C[0];
 	cout << "\tY = ";
@@ -34,30 +34,30 @@ int main()
 		if (AB >= AC)
 		{
 			if (BC >= AC)
-				cout << "AB >= BC >= AC ";
+				cout << "AB >= BC >= AC " << endl;
 			else
-				cout << "AB >= AC >= BC ";
+				cout << "AB >= AC >= BC " << endl;
 		}
 		else
-			cout << "AC >= AB >= BC ";
+			cout << "AC >= AB >= BC " << endl;
 	}
 	else
 	{
 		if (BC >= AC)
 		{
 			if(AB>=AC)
-				cout << "BC >= AB >= AC ";
+				cout << "BC >= AB >= AC " << endl;
 			else
-				cout << "BC >= AC >= AB ";
+				cout << "BC >= AC >= AB " << endl;
 		}
 		else
-			cout << "AC >= BC >= AB ";
+			cout << "AC >= BC >= AB " << endl;
 	}
-	cout << "\nAB = ";
+	cout << "AB = " << endl;
 	cout << AB;
-	cout << "\nBC = ";
+	cout << "BC = " << endl;
 	cout << BC;
-	cout << "\nAC = ";
+	cout << "AC = " << endl;
 	cout << AC;
 	_getch();
 	return 0;
