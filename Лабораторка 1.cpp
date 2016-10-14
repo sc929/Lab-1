@@ -18,7 +18,7 @@ int main()
 		cout << "Знаменатель не может равняться нулю!\ny=";
 		cin >> y;
 	}
-	res = (sqrt(x * x + 27)) / (y - 12) + 3;
+	res = (sqrt(pow(x, 2) + 27)) / (y - 12) + 3;
 	cout << res;
 	_getch();
 	return 0;
